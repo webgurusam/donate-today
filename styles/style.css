@@ -30,13 +30,15 @@ main {
     margin-bottom: 50px;
 }
 
-.section-title {
+.section-title,
+.contribute-title {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.section-description {
+.section-description,
+.contribute-description {
     color: rgba(85, 84, 84, 0.815);
 }
 
@@ -144,4 +146,30 @@ input[type=number] {
 
 #plan-3 {
     background-color: #FFF4D6;
+}
+
+/* Contribute Section Styles */
+.contribute-1 {
+    margin-bottom: 90px;
+}
+
+.contribute-1,
+.contribute-2 {
+    display: flex;
+    gap: 80px;
+    padding-right: 80px;
+}
+
+.how-contribute {
+    margin-top: 50px;
+}
+
+.contribute-description {
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.contribute-thumbnail {
+    width: 40%;
+    border-radius: 5px;
 }
