@@ -4,6 +4,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.my-110 {
+    margin: 110px 0;
+}
+
 .center {
     text-align: center;
 }
@@ -15,6 +24,20 @@
     padding: 12px 18px;
     color: #fff;
     font-size: 18px;
+}
+
+.section-content {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    color: rgba(85, 84, 84, 0.815);
 }
 
 /* header section styles */
@@ -42,4 +65,45 @@
 .banner-description {
     color: rgba(255, 255, 255, 0.829);
     margin: 10px 0 30px;
+}
+
+/* Donate Today Section Styles */
+.donate-today {
+    padding: 0 230px;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.amount {
+    padding: 35px 25px;
+    border-radius: 5px;
+    color: #707070;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FAFAFA;
+}
+
+.active {
+    background-color: #ff63471e;
+    color: #FF6347;
+    border: 2px solid #FF6347;
+}
+
+.input-your-amount {
+    margin-top: 55px;
+}
+
+input[type=number] {
+    margin-bottom: 25px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: #E0E0E0;
+    border-bottom: 1px solid #ddd;
 }
