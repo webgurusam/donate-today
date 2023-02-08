@@ -107,3 +107,41 @@ input[type=number] {
     color: #E0E0E0;
     border-bottom: 1px solid #ddd;
 }
+
+/* Donate Plan Section Styles */
+
+.donate-plan .section-content .section-description {
+    padding: 0 250px;
+}
+
+.plans {
+    display: flex;
+    gap: 20px;
+}
+
+.single-plan {
+    border-radius: 5px;
+    padding: 50px 20px;
+}
+
+.plan-title {
+    margin: 20px 0;
+    color: #121212;
+}
+
+.plan-description {
+    color: #707070;
+    font-size: 14px;
+}
+
+#plan-1 {
+    background-color: #EDF5F6;
+}
+
+#plan-2 {
+    background-color: #FFEEEE;
+}
+
+#plan-3 {
+    background-color: #FFF4D6;
+}
